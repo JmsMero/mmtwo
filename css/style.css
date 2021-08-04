@@ -8,7 +8,7 @@ html,body {
     margin: 0;
     height: 100%;
     font-family: "Myriad Set Pro","Helvetica Neue",Helvetica,Arial,Verdana,sans-serif;
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
 }
 
 * {
@@ -133,7 +133,6 @@ a:hover {
     text-align: center;
     background-image: url("../images/ab-bg.png");
     background-repeat: no-repeat;
-    background-position: center center;
     background-size: cover;
 }
 #bbs .col-md-4{
@@ -254,7 +253,7 @@ a:hover {
     background-size: 100% 100%;
 }
 #course .mall-big-box{
-    width: 100%;
+    width: 380px;
     height: 400px;
     margin: 20px 40px;
     background-image: url("../images/mall-big-bg.png");
@@ -328,7 +327,7 @@ a:hover {
     background-size:100% 432px;
     background-color: #E0E0E0;
     color: #ffffff;
-    padding: 380px 0 40px;
+    padding: 380px 0 20px;
     position: relative;
 }
 /*在992 和1199 像素之间的屏幕里，中等屏幕，分辨率低的PC*/
@@ -388,31 +387,41 @@ a:hover {
 #contact textarea.form-control{
     height: auto;
 }
-#contact .contact-us{
-    margin-left: 50px;
-}
 #contact .contact-us.attention img{
     width: 30px;
     height: 30px;
     margin-left: 20px;
 }
-#contact .contact-us p{
+#contact .contact-us p,#contact .attention-our p{
     margin-left: 10px;
     color: #6E6E6E;
 }
-#contact .contact-phone{
-    margin-right: 60px;
+#contact .contact-download{
+    justify-content: center;
 }
 #contact .contact-download li{
     margin-right: 30px;
 }
-#contact .contact-us .row{
+#contact .contact-bottom{
+    display: flex;
+    justify-content: center;
+}
+.contact-email{
+    margin: 0 50px 50px;
+}
+#contact .contact-us .row,#contact .attention-our .row{
     align-items: center;
     margin-bottom: 30px;
+    margin-right: 100px;
 }
 #contact .contact-us img{
-    width: 60px;
-    height: 60px;
+    width: 42px;
+    height: 42px;
+}
+#contact .attention-our img{
+    width: 102px;
+    height: 102px;
+    margin-left: 20px;
 }
 /*留言*/
 /*成长历程*/
@@ -697,6 +706,6 @@ footer{
 }
 footer p{
     margin: 10px 0;
-    font-size: 14px;
-    color: #ccc;
+    font-size: 12px;
+    color: #E0E0E0;
 }
