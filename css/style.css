@@ -246,6 +246,11 @@ a:hover {
         width: 260px;
     }
 }
+@media (max-width: 420px){
+    #news .news-right .news-right-text p{
+        width: 170px;
+    }
+}
 #news .news-right .news-right-text p:nth-child(2){
     padding-top: 6px;
     font-size: 14px;
