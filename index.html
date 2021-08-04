@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <!-- 让IE以最新内核运行HTML -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 , user-scalable=no">
+    <title>买卖兔</title>
+    <!-- V4版本bootstrap样式 -->
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <!-- bootstrap V3版本的字体样式 -->
+    <link rel="stylesheet" href="css/font.css"/>
+    <!-- 自定义样式 -->
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <!-- 动画样式，用来配合wow.js -->
+    <link rel="stylesheet" href="css/animate.css"/>
+</head>
+<body>
+<!--导航-->
+<nav class="navbar navbar-light navbar-expand-lg fixed-top">
+    <div class="container">
+        <!-- 导航标题logo -->
+        <a href="index.html" class="navbar-brand text-success"><img src="images/mmt_logo.png" alt=""></a>
+        <!--小屏幕导航按钮和logo：折叠按钮-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--小屏幕导航按钮和logo-->
+        <!--导航-->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <span class="mr-auto"></span>
+            <!-- 使用单页面导航缓冲效果：nav -->
+            <ul class="navbar-nav font-weight-bold" id="nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">首页</a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#course">商城板块</a></li>
+                <li class="nav-item"><a class="nav-link" href="#news">新闻资讯</a></li>
+                <li class="nav-item"><a class="nav-link" href="#bbs">关于买买兔</a></li>
+                <li class="nav-item"><a class="nav-link" href="#html5">成长历程</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">联系我们</a></li>
+            </ul>
+        </div>
+        <!--导航-->
+
+    </div>
+</nav>
+<!--END导航-->
+
+<!--home-->
+<section id="home">
+    <div class="lvjing">
+        <div class="row wow">
+            <div class="col-md-12">
+                <!-- 幻灯片 -->
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="images/mmt_banner.png" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="images/mmt_banner.png" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="images/mmt_banner.png" alt="Third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <!-- <img src="images/php.jpg" class="img-fluid" alt="php"/> -->
+            </div>
+        </div>
+    </div>
+</section>
+<!--home-->
+
+<!--course-->
+<section id="course">
+    <div class="container wow fadeInUp" data-wow-duration="0.5s">
+        <div class="row wow about-us-box">
+            <img src="images/mall-title.png" class="img-fluid" alt=""/>
+        </div>
+        <div class="mall-plate-box">
+            <div class="mall-small-box mall-list-box">
+                <div>
+                    <img src="./images/icon-new.png" alt="">
+                    <h6>产品上新专区</h6>
+                    <ul class="mall-list">
+                        <li>商城内每天至少保留30款优选产品在线</li>
+                        <li>每天更新5-10款左右新产品；</li>
+                        <li>所有上线的产品均来自品牌方授权、亲自溯源；</li>
+                        <li>口碑好的产品会经常复团</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mall-big-box mall-list-box">
+                <div>
+                    <img src="./images/icon-air.png" alt="">
+                    <h6>国货专区</h6>
+                    <ul class="mall-list">
+                        <li>商城内专设国货区域，推广全国各地特色产品、国货产品；</li>
+                        <li>每天上新2款国货产品；</li>
+                        <li>每天推广2个国产品牌，以此带动国民文化自信和民族认同感的不断觉醒；</li>
+                        <li>为国潮之风推波助澜；</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mall-small-box mall-list-box">
+                <div>
+                    <img src="./images/icon-exchange.png" alt="">
+                    <h6>直接兑换产品区</h6>
+                    <ul class="mall-list">
+                        <li>兑换专区每天更新2-4款产品；</li>
+                        <li>使用积分直接兑换产品，积分比例为1:1</li>
+                        <li>兑换区产品以品牌家电为主；</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--course-->
+
+<!--新闻资讯-->
+<section id="news">
+    <div class="container wow fadeInUp" data-wow-duration="0.5s">
+        <div class="row wow about-us-box news-title">
+            <img src="images/new-Information.png" class="img-fluid" alt=""/>
+        </div>
+        <div class="row wow">
+            <div class="col-12 col-md-4">
+                <div class="news-left">
+                    <img src="./images/swift.jpg" alt="">
+                    <div class="news-left-content">
+                        <h6>买买兔电商发布会圆满成功</h6>
+                        <p>7月10日，买买兔在江苏徐州举办了“TWO如其来，始于现在”电商发布会。在万众期待之中，买买兔正式亮相</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-8">
+                <ul class="news-right">
+                    <li class="news-flex">
+                        <div class="news-right-date">
+                            <div>
+                                <span>20</span>
+                                <p>2021年7月</p>
+                            </div>
+                        </div>
+                        <div class="news-right-text">
+                            <p>买买兔正式营业啦</p>
+                            <p>买买兔商城内正式开始上架“优选城内正式开始上架“优选城内正式开始上架“优选城内正式开始上架“优选城内正式开始上架“优选好物”，与</p>
+                        </div>
+                    </li>
+                    <li class="news-flex">
+                        <div class="news-right-date">
+                            <div>
+                                <span>20</span>
+                                <p>2021年7月</p>
+                            </div>
+                        </div>
+                        <div class="news-right-text">
+                            <p>买买兔正式营业啦</p>
+                            <p>买买兔商城内正式开始上架“优选城内正式开始上架“优选城内正式开始上架“优选城内正式开始上架“优选城内正式开始上架“优选好物”，与</p>
+                        </div>
+                    </li>
+                    <li class="news-flex">
+                        <div class="news-right-date">
+                            <div>
+                                <span>20</span>
+                                <p>2021年7月</p>
+                            </div>
+                        </div>
+                        <div class="news-right-text">
+                            <p>买买兔正式营业啦</p>
+                            <p>买买兔商城内正式开始上架“优选城内正式开始上架“优选城内正式开始上架“优选城内正式开始上架“优选城内正式开始上架“优选好物”，与</p>
+                        </div>
+                    </li>
+                    <li class="news-flex">
+                        <div class="news-right-date">
+                            <div>
+                                <span>20</span>
+                                <p>2021年7月</p>
+                            </div>
+                        </div>
+                        <div class="news-right-text">
+                            <p>买买兔正式营业啦</p>
+                            <p>买买兔商城内正式开始上架“优选城内正式开始上架“优选城内正式开始上架“优选城内正式开始上架“优选城内正式开始上架“优选好物”，与</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!--新闻资讯-->
+
+<!--关于我们-->
+<section id="bbs">
+    <div class="container">
+        <div class="row wow about-us-box">
+            <img src="images/about-us-title.png" class="img-fluid" alt=""/>
+            <p>徐州买买兔电子商务有限公司成立于2021年，结合区块链技术构建去中心化电商平台“买买兔”，以「让人们购物更放心」为品牌使命，致力于提升消费者幸福感、打造品质生活。
+                商城内产品从选品、生产、包装、质检、分拣，到运输、配送、售后各个环节，消费者均可通过溯源认证机制查询商品详细信息，做到商品公开透明，为消费者营造出诚信、安心的购物环境。</p>
+        </div>
+        <div class="row wow">
+            <div class="col-12 col-md-4">
+                <a href="javascript:;">
+                    <img src="images/a.png" class="img-fluid" alt=""/>
+                    <h6>哈希运算中心</h6>
+                    <p>买买兔数据库目前已经接入江苏优网的哈希分析数据中心；为电商数据提供全流程加密、恶意程序检测、防火墙及漏洞扫描等功能，提前防范黑客攻击</p>
+                </a>
+            </div>
+            <div class="col-12 col-md-4">
+                <a href="javascript:;">
+                    <img src="images/i.png" class="img-fluid" alt=""/>
+                    <h6>DDPS技术</h6>
+                    <p>利用分布式存储技术，将个人隐私、交易数据等整个信息库加密保护，保障平台数据库和用户信息安全不被泄露，让所有用户能够在信任的环境安全的交换数据；</p>
+                </a>
+            </div>
+            <div class="col-12 col-md-4">
+                <a href="javascript:;">
+                    <img src="images/b.png" class="img-fluid" alt=""/>
+                    <h6>优选、溯源</h6>
+                    <p>商城上的所有产品都是经过质检团队亲自试用、严控品质，层层挑选；区块链具有溯源机制。区块链可以将交易商品的产地、生产过程、运输过程等信息打包，每个信息受到电商平台相关节点的验证和确认，确保交易真实可靠</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--bbs-->
+<!--html5-->
+<section id="html5">
+    <div class="container">
+        <div class="row wow fadeInUp about-us-box"  data-wow-duration="0.5s">
+            <img src="images/about-us-title.png" class="img-fluid" alt=""/>
+        </div>
+        <div class="flow">
+            <div class="fp-tableCell">
+                <div class="inner-item">
+                    <div class="i-process end">
+                        <div class="list clearfix">
+                            <div class="line_btn h poa t-c" style="transform: translate(0px, 0px); opacity: 1;">
+                                <p>2020年7月</p>
+                                <div class="light por"></div>
+                                <div class="circle por t-f fl">买买兔构思、筹备</div>
+                            </div>
+                            <div class="line_btn h poa t-c" style="transform: translate(0px, 0px); opacity: 1;">
+                                <div class="circle por t-f fl">买买兔项目立项</div>
+                                <div class="light por"></div>
+                                <p>2020年9月</p>
+                            </div>
+                            <div class="line_btn h poa t-c" style="transform: translate(0px, 0px); opacity: 1;">
+                                <p>2021年2月</p>
+                                <div class="light por"></div>
+                                <div class="circle por t-f fl">买买兔正式成立</div>
+                            </div>
+                            <div class="line_btn h poa t-c" style="transform: translate(0px, 0px); opacity: 1;">
+                                <div class="circle por t-f fl">进入技术研发阶段</div>
+                                <div class="light por"></div>
+                                <p>2021年4月</p>
+                            </div>
+                            <div class="line_btn h poa t-c" style="transform: translate(0px, 0px); opacity: 1;">
+                                <p>2021年6月</p>
+                                <div class="light por"></div>
+                                <div class="circle por t-f fl">完成"买买兔" app开发</div>
+                            </div>
+                            <div class="line_btn h poa t-c" style="transform: translate(0px, 0px); opacity: 1;">
+                                <div class="circle por t-f fl">买买兔开放全网注册</div>
+                                <div class="light por"></div>
+                                <p>2021年7月</p>
+                            </div>
+                            <div class="line_btn h poa t-c" style="transform: translate(0px, 0px); opacity: 1;">
+                                <p>2021年8月</p>
+                                <div class="light por"></div>
+                                <div class="circle por t-f fl">'TWO如其来 始于现在'发布会</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<!--html5-->
+
+<!--contact-->
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6  wow fadeInLeft contact-leave">
+                <p>留言板</p>
+                <div class="">
+                    <form action="#" method="post">
+                        <div class="form-group form-control-50 row">
+                            <input type="text" class="form-control form-control-left" placeholder="您的姓名"/>
+                            <input type="email" class="form-control" placeholder="您的电话"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="标题"/>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="留言内容" rows="4"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" class="form-control btn-success" value="提交"/>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-12 col-md-6  wow fadeInRight contact-address">
+               <div class="contact-us row">
+                   <div class="row contact-phone">
+                       <img src="./images/icon-phone.png" alt="">
+                       <div class="">
+                           <p>联系电话</p>
+                           <p>+012346789</p>
+                       </div>
+                   </div>
+                   <div class="row">
+                       <img src="./images/icon-email.png" alt="">
+                       <div class="">
+                           <p>邮箱</p>
+                           <p>test@gmail.con</p>
+                       </div>
+                   </div>
+               </div>
+                <div class="contact-us row">
+                    <div class="row">
+                        <img src="./images/icon-address.png" alt="">
+                        <div class="">
+                            <p>地址</p>
+                            <p>江苏省徐州市泉山区矿大科技园c2c</p>
+                        </div>
+                    </div>
+                </div>
+                <ul class="contact-us attention row contact-download">
+                    <li class="row">
+                        <p>关注我们:</p>
+                        <img src="./images/icon-address.png" alt="">
+                    </li>
+                    <li class="row">
+
+                        <p>关注我们:</p>
+                        <img src="./images/icon-address.png" alt="">
+                    </li>
+                    <li class="row">
+                        <p>关注我们:</p>
+                        <img src="./images/icon-address.png" alt="">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!--contact-->
+
+<!--footer-->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p>
+                    Copyright 2021 ©君盛万邦控股集团  All Rights Reserved.   网站备案号：苏ICP备2021023964号-1
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--footer-->
+
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!-- 一个轻量级的jQuery的单页网站导航插件。增加了单击后平滑滚动导航和当你浏览不同的部分时自动选择正确的导航项 -->
+<script src="js/jquery.singlePageNav.min.js"></script>
+<!-- wow插件依赖于animate.css，当窗口变化时会执行css3动画 -->
+<script src="js/wow.min.js"></script>
+<script>
+    $(function(){
+        /*关于我们自动播放*/
+        $(".i-process .line_btn").eq(0).addClass("cur")
+        var LightNum = 0
+            , LightAuto = setInterval(function() {
+            LightNum++;
+            if (LightNum == $(".i-process .line_btn").length) {
+
+                LightNum = 0
+
+            }
+            $(".i-process .line_btn").eq(LightNum).addClass("cur").siblings().removeClass("cur")
+        }, 3000);
+        /*单页导航跳转效果插件
+        插件地址：https://github.com/jeroenweustink/single-page-nav
+        会自动在当前导航添加class="current"
+        */
+        $('#nav').singlePageNav({
+            offset:75
+        });
+        /*小屏幕导航点击链接后关闭下拉菜单*/
+        $('.navbar-collapse a').click(function(){
+            $('.navbar-collapse').collapse('hide');
+        });
+        //wow插件实例化，该插件需要配合animated.css使用，比如在需要当窗口变化进行动画效果的div中添加<div class="col-12 col-md-6  wow fadeInRight">
+        //wow表示调用wow插件，fadeInRight表示animated.css的动画效果
+        //插件官网：https://github.com/matthieua/WOW
+        //http://www.jq22.com/yanshi1705
+        new WOW().init();
+    })
+</script>
+</body>
+</html>
