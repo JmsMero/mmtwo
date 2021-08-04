@@ -124,9 +124,27 @@ a:hover {
     text-align: center;
     width: 100%;
 }
-.lvjing{
+#home .lvjing{
     width: 100%;
 }
+#home .lvjing .aaa{
+    width: 100%;
+    height: 100%;
+}
+#home .lvjing img{
+    width: 100%;
+    height: 100%;
+}
+/*@media screen and (max-width: 768px){*/
+/*    #home .lvjing .aaa{*/
+/*        height: 500px;*/
+/*    }*/
+/*    #home .lvjing img{*/
+/*        width: auto!important;*/
+/*        margin-left: -470px;*/
+/*    }*/
+/*}*/
+
 /*bbs*/
 #bbs{
     padding: 4rem 0;
@@ -182,7 +200,6 @@ a:hover {
     overflow-x: scroll;
 }
 #news .news-right .news-flex{
-    width: 660px;
     display: flex;
     align-items: center;
     background-color: #eee;
@@ -210,10 +227,20 @@ a:hover {
 #news .news-right .news-right-text p{
     font-size: 18px;
     color: #333;
-    width: 500px;
+    width: 320px;
     overflow:hidden;
     white-space: nowrap;
     text-overflow:ellipsis;
+}
+@media (min-width: 992px) {
+    #news .news-right .news-right-text p{
+        width: 500px;
+    }
+}
+@media (max-width: 578px){
+    #news .news-right .news-right-text p{
+        width: 260px;
+    }
 }
 #news .news-right .news-right-text p:nth-child(2){
     padding-top: 6px;
@@ -243,7 +270,7 @@ a:hover {
 
 /*mall*/
 #course{
-    padding: 4rem 0;
+    padding: 3rem 0;
     text-align: center;
 }
 #course .mall-small-box{
@@ -396,15 +423,15 @@ a:hover {
     margin-left: 10px;
     color: #6E6E6E;
 }
+#contact .attention-our p{
+    width: 80px;
+}
 #contact .contact-download{
     justify-content: center;
 }
-#contact .contact-download li{
-    margin-right: 30px;
-}
 #contact .contact-bottom{
     display: flex;
-    justify-content: center;
+    margin-bottom: 20px;
 }
 .contact-email{
     margin: 0 50px 50px;
@@ -421,7 +448,6 @@ a:hover {
 #contact .attention-our img{
     width: 102px;
     height: 102px;
-    margin-left: 20px;
 }
 /*留言*/
 /*成长历程*/
